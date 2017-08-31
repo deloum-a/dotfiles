@@ -1,0 +1,28 @@
+[user]
+    name = Antoine Deloume
+    email = deloumea@gmail.com
+
+[push]
+    default = current
+
+[alias]
+    # commit trees
+    l = log --color --graph --full-history --all --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date iso
+    ll = log --color --graph --full-history --pretty=format:'%Cred%h%Creset -%C(cyan)%d%Creset %s %Cgreen(%cd) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date iso
+
+    # commits handling
+    unstage = reset
+    uncommit = reset --soft HEAD~
+    amend = commit --amend
+    wip = commit -am 'wip'
+
+    # branches
+    br = branch
+    brs = branch -a
+    branches = branch -a
+
+    # shortened
+    db = branch -D
+    co = checkout
+    cob = checkout -b
+    st = status

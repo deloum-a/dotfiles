@@ -1,0 +1,8 @@
+export PATH="$HOME/.bin:$PATH"
+export OVH_RSA_PATH="$HOME/.ssh/ovh_rsa"
+export DEFAULT_HOST=sentinel1
+export DEFAULT_STATUS_PATH=/home/antoine/workspace/satellite/poc/
+
+export RANCHER_URL=""
+export RANCHER_ACCESS_KEY=""
+export RANCHER_SECRET_KEY=""

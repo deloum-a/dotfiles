@@ -1,0 +1,17 @@
+# List of aliases shared with bash and zsh
+
+alias cat='pygmentize -g'
+alias hard-cat='/bin/cat'
+alias ne='emacs -nw'
+alias cdproject='cd $w'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+# Git
+alias gib='git branch'
+
+# Kayrros
+alias st='kast code status'
