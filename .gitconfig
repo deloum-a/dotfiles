@@ -14,6 +14,7 @@
     unstage = reset
     uncommit = reset --soft HEAD~
     amend = commit --amend
+    squash = merge --squash
     wip = commit -am 'wip'
 
     # branches
