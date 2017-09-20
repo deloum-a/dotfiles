@@ -466,4 +466,7 @@ applycss(`
   #messages_container {
     background: #222;
   }
+  .p-channel_sidebar {
+    background: #171717 !important
+  }
 `);
