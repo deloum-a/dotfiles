@@ -16,6 +16,7 @@
     amend = commit --amend
     squash = merge --squash
     wip = commit -am 'wip'
+    fix = commit -am 'fix'
 
     # branches
     br = branch
