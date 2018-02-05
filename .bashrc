@@ -192,6 +192,12 @@ esac
 
 # ENVIRONEMENT
 export w=/home/antoine/workspace/satellite/poc/
+export KAYRROS_RSA=$HOME/.ssh/kayrros_gitlab_rsa
+
+# virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/workspace/python
+source /usr/local/bin/virtualenvwrapper.sh
 
 # nvm
 export NVM_DIR="/home/antoine/.nvm"

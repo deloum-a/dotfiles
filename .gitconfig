@@ -15,8 +15,11 @@
     uncommit = reset --soft HEAD~
     amend = commit --amend
     squash = merge --squash
+
+    # lazy commits
     wip = commit -am 'wip'
     fix = commit -am 'fix'
+    debug = commit -am 'debug'
 
     # branches
     br = branch
@@ -25,6 +28,10 @@
 
     # shortened
     db = branch -D
+    dbr = push --delete
     co = checkout
     cob = checkout -b
     st = status
+
+[commit]
+    template = $HOME/.config/gitmessage.txt
